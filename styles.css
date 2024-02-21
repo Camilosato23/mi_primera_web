@@ -1,0 +1,81 @@
+* Keyword values */{
+border-right-style: none;
+border-right-style: hidden;
+border-right-style: dotted;
+border-right-style: dashed;
+border-right-style: solid;
+border-right-style: double;
+border-right-style: groove;
+border-right-style: ridge;
+border-right-style: inset;
+border-right-style: outset;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Barlow", sans-serif;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-1 img{
+width: 50%;
+
+}
+
+
+.seccion-2 img {
+    width: 60%;
+    height: auto;
+    border: 20%;
+    }
+
+.acerca-imagen{
+        background-color: aquamarine;
+        width: 60%;
+        height: 80%;
+}
+
+ol, ul{ 
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: rgb(34, 33, 31, 0.85);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+    ;
+
+}
+header a i{
+    color: white;
+    font-size: 3em;
+}
+header nav ul{
+    display: flex;
+    gap: 1.1em;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+.seccion-3{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
